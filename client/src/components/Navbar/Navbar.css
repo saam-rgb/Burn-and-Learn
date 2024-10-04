@@ -3,9 +3,18 @@
   position: absolute;
   width: 100%;
 }
-.navbar-expand-lg li {
-  color: #fff !important;
-}
+
 .navbar-toggler {
-  all: unset !important;
+  /* all: unset !important; */
+}
+form button {
+  border: 1px solid #00f5d0 !important;
+}
+form button:hover {
+  background-color: #00f5d0 !important;
+  color: black !important;
+}
+
+span FitnessCenterOutlinedIcon {
+  color: #00f5d0 !important;
 }

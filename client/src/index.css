@@ -6,19 +6,26 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 18px;
+  color: #343434;
+}
+
+*::selection {
+  background-color: #00f5d0;
+  color: #000000;
 }
 
 .heading {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 36px;
+  font-size: 44px;
 }
 
 .sub-heading {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  font-size: 36px;
 }
 
 .para-text {
@@ -26,3 +33,23 @@
   font-weight: 400;
   font-style: normal;
 }
+.primary {
+  background: #000000 !important;
+}
+.secondary {
+  background: #00f5d0 !important;
+}
+.accent {
+  background: #f5f4f5 !important;
+}
+.tc-1 {
+  color: #000000 !important;
+}
+.tc-2 {
+  color: #00f5d0 !important;
+}
+.tc-3 {
+  color: #f5f4f5 !important;
+}
+
+/* #c99406 #336280 */

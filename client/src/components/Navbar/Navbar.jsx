@@ -5,38 +5,38 @@ import FitnessCenterOutlinedIcon from "@mui/icons-material/FitnessCenterOutlined
 export const Navbar = () => {
   // const [dumbell, setDumbell] = useState();
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg  sub-heading">
+    <div className="primary">
+      <nav class="navbar navbar-expand-lg  sub-heading b">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand tc-2" href="#">
+            Burn & Learn
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation">
-            <span>
+            <span className="tc-2">
               <FitnessCenterOutlinedIcon />
             </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0 sub-heading">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active tc-3" aria-current="page" href="#">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link tc-3" href="#">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link tc-3" href="#">
                   Contact
                 </a>
               </li>
@@ -50,7 +50,7 @@ export const Navbar = () => {
                 placeholder="Search"
                 aria-label="Search"
               /> */}
-              <button class="btn btn-outline-success primary-btn" type="submit">
+              <button class="btn tc-2 " type="submit">
                 Join now
               </button>
             </form>
