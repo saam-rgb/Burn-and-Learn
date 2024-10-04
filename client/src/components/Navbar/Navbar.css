@@ -1,0 +1,11 @@
+.navbar-expand-lg {
+  background-color: transparent !important;
+  position: absolute;
+  width: 100%;
+}
+.navbar-expand-lg li {
+  color: #fff !important;
+}
+.navbar-toggler {
+  all: unset !important;
+}
